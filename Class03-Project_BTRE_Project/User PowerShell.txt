@@ -1,0 +1,18 @@
+Windows Version
+Open the PowerShell with Administrator and write this command:
+
+PS C:\Users\...> Get-ExecutionPolicy
+Restricted
+
+PS C:\Users\...> Set-ExecutionPolicy RemoteSigned
+PS C:\Users\...> Get-ExecutionPolicy
+RemoteSigned
+
+
+Active:
+C:\Users\Usuario\Documents\GitHub\Renzoku-PythonDjango\Class03-Project_BTRE_Project\btre_project\venv\Scripts\Activate.ps1
+
+Deactivate:
+deactivate
+
+https://docs.python.org/3/library/venv.html#creating-virtual-environments
