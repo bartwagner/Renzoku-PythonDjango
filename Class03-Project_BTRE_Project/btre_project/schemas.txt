@@ -45,3 +45,9 @@ email: STR
 phone: STR
 message: TEXT
 contact_date: DATE
+
+------------------------------------------
+superUser
+name: wagner
+email: bartwagner@gmail.com
+password: 123456
